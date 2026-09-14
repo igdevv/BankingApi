@@ -1,0 +1,75 @@
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+
+# Debug / Release
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+.nuget/
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+
+# Logs
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test results
+TestResults/
+coverage/
+coverage.cobertura.xml
+
+# Local database files
+*.db
+*.db-shm
+*.db-wal
+*.mdf
+*.ldf
+
+# Environment files / secrets
+.env
+.env.*
+secrets.json
+
+# Local app settings
+appsettings.Development.json
+appsettings.Local.json
+
+# User secrets / local tooling
+**/Properties/ServiceDependencies/
+**/Properties/serviceDependencies*.json
+
+# Publish output
+publish/
+artifacts/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# Entity Framework temporary/design artifacts
+MigrationBackup/
