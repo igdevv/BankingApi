@@ -21,6 +21,7 @@ builder.Services.AddDbContext<AppDbContext>(op =>
 });
 
 builder.Services.AddScoped<AccountService>();
+builder.Services.AddScoped<TransferService>();
 
 builder.Services.AddProblemDetails();
 
